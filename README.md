@@ -1,0 +1,2 @@
+# PHP Loose Typing Gotcha: Zero as a Numeric Value
+This repository demonstrates a common pitfall in PHP related to its loose typing system.  The `my_function` in `bug.php` attempts to handle different data types, but the behavior with the numeric value 0 might not be what you expect. The `bugSolution.php` shows the fixed version. The issue arises from how PHP treats 0 and other numeric values. The solution involves explicitly checking for the specific case of 0.
